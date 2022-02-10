@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Day-4 Assignment</title>
+</head>
+
+<body>
+    <script>
+        var avengers = [
+            {
+                Name: "Sakshi",
+                Age: 21,
+                Cousre: "Btech",
+                Cgpa: 9.2
+            },
+            {
+                Name: "Sanjoli",
+                Age: 20,
+                Cousre: "BA",
+                Cgpa: 9.0
+            },
+            {
+                Name: "Sukriti",
+                Age: 22,
+                Cousre: "BCA",
+                Cgpa: 8.8
+            },
+            {
+                Name: "Shivam",
+                Age: 20,
+                Cousre: "BSc",
+                Cgpa: 9.4
+            },
+            {
+                Name: "Aryan",
+                Age: 19,
+                Cousre: "B.Com",
+                Cgpa: 8.5
+            }
+        ]
+
+        //Displaying Two properties Name and Age using For Loop
+        for (var i = 0; i < 5; i++) {
+            console.log(avengers[i].Name);
+            console.log(avengers[i].Age);
+        }
+
+        //Displaying Two properties Name and Age using ForEach Loop
+        avengers.forEach(
+            avenger => console.log(avenger.Name, avenger.Age)
+        );
+    </script>
+
+</body>
+
+</html>
